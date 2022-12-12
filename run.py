@@ -37,9 +37,12 @@ def get_prediction(img_bytes, ee):
     #imgs = [img]  # batched list of images
 # Inference
     results = model(img)
+    print(results)
+    
     result2 = np.array(results.pandas().xyxy[0])#모든 라벨링 값 추출
-    if result2 is None:#추출값이 null인 경우 다시 찍으라고 반환
-        flash("인식을 할 수 없습니다. 다른 사진을 업로드 해주세요.")
+    print(result2)
+    if result2 == []:#추출값이 null인 경우 다시 찍으라고 반환
+        #flash("인식을 할 수 없습니다. 다른 사진을 업로드 해주세요.")
         return redirect('http://localhost:8085/ASNJ/Prediction.do')
     #result3 = result2[0][4]#확률 추출
     ee = result2[0][5]#병명 추출
@@ -56,17 +59,17 @@ def change_dir(path):
 def defini(imsibun):
     result = '0'
     if imsibun == 1:
-        result = '탄저병'
-    elif imsibun == 2:
-        result = '정상'
-    elif imsibun == 3:
-        result = '흰가루병'
-    elif imsibun == 4:
         result = '꽃노랑총채벌레'
-    elif imsibun == 5:
+    elif imsibun == 2:
         result = '담배가루이'
-    elif imsibun == 6:
+    elif imsibun == 3:
         result = '담배거세미나방'
+    elif imsibun == 4:
+        result = '탄저병'#탄저병
+    elif imsibun == 5:
+        result = '정상'#정상
+    elif imsibun == 6:
+        result = '흰가루병'#흰가루병
     elif imsibun == 7:
         result = '담배나방'
     elif imsibun == 8:
