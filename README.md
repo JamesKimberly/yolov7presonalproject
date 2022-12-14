@@ -1,7 +1,10 @@
 # yolov7presonalproject
 
-데이터 출처 : aihub<br>
+데이터 출처![asd](https://user-images.githubusercontent.com/107903452/207488315-ef6340a7-a8f1-4616-82c5-2c1c9c18d635.png)
+ : aihub<br>
+
 데이터 라벨링 : labelimg<br>
+![화면 캡처 2022-11-25 171245](https://user-images.githubusercontent.com/107903452/207487877-43c020ef-669c-4ef4-b4ca-6d9cc079ac81.png)
 
 데이터 처리 사이트 : roboflow.com<br>
 ![화면 캡처 2022-12-05 014241](https://user-images.githubusercontent.com/107903452/207487563-b41e2cec-f802-4e77-9714-af73bc391d43.png)
