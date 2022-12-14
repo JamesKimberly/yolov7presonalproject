@@ -16,4 +16,5 @@
 ![화면 캡처 2022-12-14 111756](https://user-images.githubusercontent.com/107903452/207489236-e32b38ab-bef9-48f6-bf8c-7412ba9faf27.png)
 
 run.py에서 마지막 go_a함수 redirect에 보내고 싶은 주소를 적으면 됨(단, 뒤에 result를 넣어야 원하는 값이 넘어감)
+
 ![화면 캡처 2022-12-14 112335](https://user-images.githubusercontent.com/107903452/207489943-93237922-e346-45c1-a8ff-012724ac778e.png)
