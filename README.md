@@ -2,7 +2,10 @@
 
 데이터 출처 : aihub<br>
 데이터 라벨링 : labelimg<br>
-데이터 처리 사이트 : roboflow.com
+
+데이터 처리 사이트 : roboflow.com<br>
+![화면 캡처 2022-12-05 014241](https://user-images.githubusercontent.com/107903452/207487563-b41e2cec-f802-4e77-9714-af73bc391d43.png)
+
 
 분석 .ipynb 파일은 jupyter 전용이므로 취향에 따라 설정 
 
